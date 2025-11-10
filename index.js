@@ -1,6 +1,6 @@
 import { connect } from 'cloudflare:sockets';
 
-let userID = 'd342d11e-d424-4583-b36e-524ab1f0afa4';
+let userID = 'f25c45c4-8ca4-4d66-b14c-8fa3f4937aaa';
 const proxyIPs = ['cdn.xn--b6gac.eu.org:443', 'cdn-all.xn--b6gac.eu.org:443'];
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 let proxyPort = proxyIP.includes(':') ? proxyIP.split(':')[1] : '443';
